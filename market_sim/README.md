@@ -54,6 +54,13 @@ market_sim/
     └── performance/        # Performance tests
 ```
 
+
+### Test Submission Additions
+- **Proof-of-Work Consensus** (`market_sim/blockchain/consensus/pow_consensus.py`): Implements a PoW mechanism to validate market transactions, inspired by *Foundations of Distributed Consensus and Blockchains* (Section 2.3, Chapter 14).
+- **Tests** (`market_sim/tests/unit/test_pow_consensus.py`): Unit tests verifying PoW functionality (all tests passed).
+- **Visualization** (`market_sim/analysis/visualization/plot_mining_times.py`): Bar chart showing mining times for PoW difficulty levels 2, 3, and 4, saved as `mining_times.png`.
+- **Package Structure** (`__init__.py` files): Added to enable module imports.
+
 ## Features
 
 ### Market Simulation
